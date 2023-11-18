@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+a:hover {
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
+  cursor: pointer;
+}
+
+.intro-section:hover {
+  font-size: 104%;
+}
+
+.navbar {
+  margin-top: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.navbar:hover {
+  opacity: 1;
+}
+
+.navbar a {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.intro-section {
+  width: 600px;
+  text-align: left;
+  transition: font-size 0.5s ease-in-out;
+  margin: 50px;
+}
+.images {
+  height: 250px;
+  border-radius: 160px;
+}
+img:hover {
+  box-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px grey;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  jusifty-content: center;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+.linkedin {
+  height: 30px;
+}
